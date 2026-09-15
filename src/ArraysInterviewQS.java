@@ -1,7 +1,7 @@
 public class ArraysInterviewQS {
     static void main() {
 
-        // 1. Find the second largest number
+        // 1. Find the second-largest number
 
         int[] nums = {2, 4, 5, 9, 7};
 
