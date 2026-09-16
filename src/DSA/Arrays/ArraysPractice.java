@@ -1,4 +1,4 @@
-import java.util.Scanner;
+package DSA.Arrays;
 
 public class ArraysPractice {
 

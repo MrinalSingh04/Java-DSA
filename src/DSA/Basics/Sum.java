@@ -1,3 +1,5 @@
+package DSA.Basics;
+
 import java.util.Scanner;
 
 public class Sum {
@@ -12,6 +14,6 @@ public class Sum {
         int secondNum = input.nextInt();
 
         int sum = firstNum + secondNum;
-        System.out.println("Sum of your numbers is : " + sum);
+        System.out.println("DSA.Basics.Sum of your numbers is : " + sum);
     }
 }

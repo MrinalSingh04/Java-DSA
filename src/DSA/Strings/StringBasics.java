@@ -1,3 +1,5 @@
+package DSA.Strings;
+
 public class StringBasics {
     static void main(String[] args) {
 //        String str = "Jammy";

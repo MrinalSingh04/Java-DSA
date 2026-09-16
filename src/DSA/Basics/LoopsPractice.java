@@ -1,3 +1,5 @@
+package DSA.Basics;
+
 public class LoopsPractice {
     static void main(String[] args) {
 
