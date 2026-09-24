@@ -1,37 +1,61 @@
 package DSA.Arrays;
 
+import java.util.Scanner;
+
 public class ArraysPractice {
 
 
-    static int max(int[] nums) {
-        int maxNum = nums[0];
-        for (int i = 0; i < nums.length; i++) {
-            if (nums[i] > maxNum) {
-                maxNum = nums[i];
-            }
-        }
-        return maxNum;
-    }
-
-    static int min(int[] nums) {
-        int minNum = nums[0];
-        for (int i = 0; i < nums.length; i++) {
-            if (nums[i] < minNum) {
-                minNum = nums[i];
-            }
-        }
-        return minNum;
-    }
-
     public static void main(String[] args) {
 
-        int arr[] = {1, 3, 4, 2, 7};
+        // Print -ve values of an arr
+        Scanner sc = new Scanner(System.in);
 
-        int maxNumber = max(arr);
-        int minNumber = min(arr);
+        System.out.print("Enter the size of the array: ");
+        int n = sc.nextInt();
 
-        System.out.println("Maximum number is: " + maxNumber);
-        System.out.println("Minimum number is: " + minNumber);
+        int[] nums = new int[n];
+
+        for (int i = 0; i < n; i++) {
+            System.out.print("Value at index " + i + ": ");
+            nums[i] = sc.nextInt();
+        }
+        //printing -ve nums
+        for (int i = 0; i < n; i++) {
+            if (nums[i] < 0) {
+                System.out.print(nums[i] + " ");
+            }
+        }
+
+
+//    static int max(int[] nums) {
+//        int maxNum = nums[0];
+//        for (int i = 0; i < nums.length; i++) {
+//            if (nums[i] > maxNum) {
+//                maxNum = nums[i];
+//            }
+//        }
+//        return maxNum;
+//    }
+//
+//    static int min(int[] nums) {
+//        int minNum = nums[0];
+//        for (int i = 0; i < nums.length; i++) {
+//            if (nums[i] < minNum) {
+//                minNum = nums[i];
+//            }
+//        }
+//        return minNum;
+//    }
+//
+//    public static void main(String[] args) {
+//
+//        int arr[] = {1, 3, 4, 2, 7};
+//
+//        int maxNumber = max(arr);
+//        int minNumber = min(arr);
+//
+//        System.out.println("Maximum number is: " + maxNumber);
+//        System.out.println("Minimum number is: " + minNumber);
 
         // Ctrl + alt + L  ---->  auto formatter
 
