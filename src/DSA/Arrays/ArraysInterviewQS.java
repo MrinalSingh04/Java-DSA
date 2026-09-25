@@ -8,8 +8,8 @@ public class ArraysInterviewQS {
 //        int[] nums = {2, 4, 5, 9, 7};
 //
 //        int largest = nums[0];
-//        int secondLargest = Integer.MIN_VALUE;
-//        for (int i = 0; i < nums.length; i++) {
+//        int secondLargest = nums[1];
+//        for (int i = 1; i < nums.length; i++) {
 //            if (nums[i] > largest) {
 //                secondLargest = largest;
 //                largest = nums[i];
@@ -22,7 +22,7 @@ public class ArraysInterviewQS {
 
         // 2. Check if array is sorted or not
 
-        int[] nums1 = {1, 4, 2, 3, 5};
+//        int[] nums1 = {1, 4, 2, 3, 5};
 
     }
 }

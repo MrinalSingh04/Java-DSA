@@ -7,24 +7,62 @@ public class ArraysPractice {
 
     public static void main(String[] args) {
 
+        //Search for an element using linear search
+//        int[] nums = {1, 2, 3, 4, 5, 6, 7};
+//
+//        Scanner sc = new Scanner(System.in);
+//        System.out.println("Enter the number of elements: ");
+//        int n = sc.nextInt();
+//
+//        boolean found = false;
+//
+//        for (int i = 0; i < nums.length; i++) {
+//            if (nums[i] == n) {
+//                System.out.println("Found element at index " + i + " in array");
+//                found = true;
+//                break;
+//            }
+//        }
+//        if (!found) {
+//            System.out.println("Element not found");
+//        }
+
+
+        //Count the times even and odd no. occurs
+//        int[] nums = {1, 2, 3, 4, 5, 6, 7};
+//
+//        int evenCount = 0;
+//        int oddCount = 0;
+//
+//        for (int i = 0; i < nums.length; i++) {
+//            if (nums[i] % 2 == 0) {
+//                evenCount++;
+//            } else {
+//                oddCount++;
+//            }
+//        }
+//        System.out.println(evenCount);
+//        System.out.println(oddCount);
+
+
         // Print -ve values of an arr
-        Scanner sc = new Scanner(System.in);
-
-        System.out.print("Enter the size of the array: ");
-        int n = sc.nextInt();
-
-        int[] nums = new int[n];
-
-        for (int i = 0; i < n; i++) {
-            System.out.print("Value at index " + i + ": ");
-            nums[i] = sc.nextInt();
-        }
-        //printing -ve nums
-        for (int i = 0; i < n; i++) {
-            if (nums[i] < 0) {
-                System.out.print(nums[i] + " ");
-            }
-        }
+//        Scanner sc = new Scanner(System.in);
+//
+//        System.out.print("Enter the size of the array: ");
+//        int n = sc.nextInt();
+//
+//        int[] nums = new int[n];
+//
+//        for (int i = 0; i < n; i++) {
+//            System.out.print("Value at index " + i + ": ");
+//            nums[i] = sc.nextInt();
+//        }
+//        //printing -ve nums
+//        for (int i = 0; i < n; i++) {
+//            if (nums[i] < 0) {
+//                System.out.print(nums[i] + " ");
+//            }
+//        }
 
 
 //    static int max(int[] nums) {
