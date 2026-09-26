@@ -7,6 +7,23 @@ public class ArraysPractice {
 
     public static void main(String[] args) {
 
+        //Find the target value -> two sum
+//        int[] nums = {1, 3, 2, 5, 4};
+//        int target = 7;
+//        boolean found = false;
+//
+//        for (int i = 0; i < nums.length; i++) {
+//            for (int j = i + 1; j < nums.length; j++) {
+//                if (nums[i] + nums[j] == target) {
+//                    System.out.println(nums[i] + " " + nums[j]);
+//                    found = true;
+//                }
+//            }
+//        }
+//        if (!found) {
+//            System.out.println("No pair found");
+//        }
+
         //Search for an element using linear search
 //        int[] nums = {1, 2, 3, 4, 5, 6, 7};
 //
