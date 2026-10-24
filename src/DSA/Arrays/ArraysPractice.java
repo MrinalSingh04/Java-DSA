@@ -250,5 +250,48 @@ public class ArraysPractice {
 //        System.out.println(n+ " occurs "+ occurence);
 
 
+//        int[] x = {1, 3, 4, 2, 7};
+//
+//        for (int i = 0; i < x.length; i++) {
+//            System.out.print(x[i] + " ");
+//        }
+
+// I/P and O/P array
+//        int[] arr = new int[4];
+//        Scanner sc = new Scanner(System.in);
+//
+//        for (int i = 0; i < arr.length; i++) {
+//            arr[i] = sc.nextInt();
+//        }
+//
+//        for (int i : arr) {
+//            System.out.println(i);
+//        }
+
+
+        // sum and max and 2nd max of array
+
+        int[] nums = {2, 5, 2, 7, 2, 9, 5};
+
+        int sum = 0;
+        int max = nums[0];
+        int secondMax = Integer.MIN_VALUE;
+
+        for (int i = 0; i < nums.length; i++) {
+            sum += nums[i];
+
+            if (nums[i] > max) {
+                secondMax = max;
+                max = nums[i];
+            } else if (nums[i] < max && nums[i] > secondMax) {
+                secondMax = nums[i];
+            }
+
+        }
+
+        System.out.println("Sum: " + sum);
+        System.out.println("Max: " + max);
+        System.out.println("SecondMax: " + secondMax);
+
     }
 }
